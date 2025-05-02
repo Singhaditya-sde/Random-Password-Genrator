@@ -1,13 +1,65 @@
-# React + Vite
+# 🔐 React Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and simple **Random Password Generator** built with **React**, allowing users to generate secure passwords with customizable options including length, numbers, and special characters.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Real-time password generation
+* Adjustable password length (6–50 characters)
+* Toggle options for including numbers and special characters
+* Copy password to clipboard with one click
+* Responsive and minimal UI using Tailwind CSS
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Random-Password-Genrator
+## 🛠️ Tech Stack
+
+* React
+* Tailwind CSS
+* JavaScript (ES6+)
+* HTML & CSS
+
+## 📦 Installation & Setup
+
+1. **Clone the repo:**
+
+   ```bash
+   git clone https://github.com/yourusername/react-password-generator.git
+   cd react-password-generator
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+
+   ```bash
+   npm start
+   ```
+
+## 🧠 How It Works
+
+* Uses `useState`, `useEffect`, `useCallback`, and `useRef` hooks from React.
+* Dynamically constructs a character set based on selected options.
+* Password is updated automatically when settings change.
+* Copy function uses `navigator.clipboard`.
+
+## 📁 Project Structure
+
+```
+react-password-generator/
+├── public/
+├── src/
+│   ├── App.js          # Main app logic
+│   ├── App.css         # Styles (uses Tailwind CSS classes)
+│   └── index.js
+├── package.json
+└── README.md
+```
+
+
+## 🙋‍♂️ Author
+
+* Aditya Kumar(https://github.com/Singhaditya-sde)
