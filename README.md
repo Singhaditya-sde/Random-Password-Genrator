@@ -23,7 +23,7 @@ A clean and simple **Random Password Generator** built with **React**, allowing 
 1. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/yourusername/react-password-generator.git
+   git clone https://github.com/Singhaditya-sde/react-password-generator.git
    cd react-password-generator
    ```
 
