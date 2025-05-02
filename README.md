@@ -1,4 +1,4 @@
-# 🔐 React Password Generator
+# 🔐 Random Password Generator
 
 A clean and simple **Random Password Generator** built with **React**, allowing users to generate secure passwords with customizable options including length, numbers, and special characters.
 
