@@ -1,4 +1,4 @@
-# 🔐 Random Password Generator
+# 🔐 PassGen
 
 A clean and simple **Random Password Generator** built with **React**, allowing users to generate secure passwords with customizable options including length, numbers, and special characters.
 
